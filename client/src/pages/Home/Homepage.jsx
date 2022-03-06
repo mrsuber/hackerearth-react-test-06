@@ -6,11 +6,14 @@ import './Homepage.css'
 import {Topbar,Sidebar,Card,RecentInfo,ResentUsers} from '../../components'
 
 const Homepage = ({history}) => {
-  const [cdata,setCdata] = useState([])
+
+
+
   const dispatch = useDispatch()
 
   useEffect(()=>{
     dispatch(getData())
+
   },[])
 
   return (
@@ -23,7 +26,9 @@ const Homepage = ({history}) => {
       </div>
 
       <div className="admin__details">
+
       <RecentInfo/>
+
       <ResentUsers/>
       </div>
     </div>

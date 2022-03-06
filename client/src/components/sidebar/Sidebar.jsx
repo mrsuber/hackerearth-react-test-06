@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faTable,faHome,faUsers,faLock,faSignOutAlt,faUserPlus,faFileUpload} from '@fortawesome/free-solid-svg-icons';
+import {faTable,faHome} from '@fortawesome/free-solid-svg-icons';
 import {Link} from 'react-router-dom'
 import logo from '../../images/logo.png'
 import './Sidebar.css'
@@ -33,7 +33,7 @@ const Sidebar = ({history}) => {
             </li>
             <li>
             <Link to="/users" className="link">
-              <span className="admin__icon"><FontAwesomeIcon icon={faUsers} /></span>
+              <span className="admin__icon"><FontAwesomeIcon icon={faTable} /></span>
               <span className="admin__title">Snacks</span>
               </Link>
             </li>
@@ -48,18 +48,18 @@ const Sidebar = ({history}) => {
 
             <li>
             <Link to="/password" className="link">
-              <span className="admin__icon"><FontAwesomeIcon icon={faLock} /></span>
+              <span className="admin__icon"><FontAwesomeIcon icon={faTable} /></span>
               <span className="admin__title">Desert</span>
               </Link>
             </li>
 
             <li>
             <Link to="/register" className="link">
-              <span className="admin__icon"><FontAwesomeIcon icon={faUserPlus} /></span>
+              <span className="admin__icon"><FontAwesomeIcon icon={faTable} /></span>
               <span className="admin__title">Beverage</span>
               </Link>
             </li>
-          
+
           </ul>
         </div>
 
