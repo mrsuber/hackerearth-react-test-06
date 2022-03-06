@@ -1,0 +1,58 @@
+.displayTableDataItem{
+  cursor: pointer;
+}
+.part1{
+  display: flex;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+
+}
+
+.subpart1_1{
+  flex:1;
+}
+.subpart1_2{
+  flex: 3;
+}
+
+.subpart1_3{
+  flex:1;
+}
+
+.admin__cardHeader{
+  display: flex;
+  flex-direction: column;
+}
+
+.part2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.subpart2_1{
+  flex:1;
+}
+
+.subpart2_2{
+  flex: 2;
+}
+
+.subpart2_3{
+  flex:1;
+}
+
+.part3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.subpart3_1{
+  flex:4;
+}
+.subpart3_2{
+  flex:1;
+}
