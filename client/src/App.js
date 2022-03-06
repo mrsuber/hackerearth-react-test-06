@@ -1,8 +1,7 @@
 import {useEffect} from 'react'
 import axios from 'axios'
-
-
-
+import {BrowserRouter as Router,Switch,Route } from 'react-router-dom'
+import {HomePage} from './pages'
 const App=()=> {
   let url = 'https://smartqdemo.firebaseio.com/events-data.json'
 
@@ -17,12 +16,14 @@ const App=()=> {
 
   },[url])
   return (
-
+    <Router>
       <div className='App'>
-        Indext file
+        <Switch>
 
+            <Route exact path="/" component={HomePage}/>
+        </Switch>
       </div>
-
+    </Router>
   );
 }
 
