@@ -35,7 +35,7 @@ const RecentUsers = ({img1}) => {
     <div className="admin__recentCustomers">
 
     <div className="admin__cardHeader">
-      <h2>Recent Registered Users</h2>
+      <h2>Card Summary</h2>
     </div>
     <table>
       <tbody>
